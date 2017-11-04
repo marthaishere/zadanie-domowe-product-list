@@ -1,0 +1,19 @@
+/* trzeba zawsze się odnieść do elementu, który ma się zmieniać */
+
+@media all and (max-width: 1240px){
+    .product-item {
+        width: 47%; 
+        text-align: center;
+}
+
+@media all and (max-width: 992px){
+    .product-item {
+        width: 47%;
+}
+
+@media all and (max-width: 840px) {
+    .product-item {
+        max-width: 40%;
+    }
+    
+}
